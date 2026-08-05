@@ -1,0 +1,22 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jobs output
+jobs/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

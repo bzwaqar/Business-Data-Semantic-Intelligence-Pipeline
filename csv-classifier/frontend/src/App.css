@@ -1,0 +1,236 @@
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.app header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.app header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.app header p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card h2 {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
+.card-error {
+  border-color: #e74c3c;
+}
+
+/* Drop zone */
+.drop-zone {
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s;
+  margin-bottom: 1rem;
+}
+
+.drop-zone:hover,
+.drop-zone.drag-over {
+  border-color: #3b82f6;
+}
+
+.drop-zone .hint {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 0.25rem;
+}
+
+/* File info bar */
+.file-info {
+  background: #eef4ff;
+  border: 1px solid #c5d9f8;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.file-info strong {
+  font-weight: 600;
+}
+
+.file-info span {
+  color: #666;
+}
+
+/* Field */
+.field {
+  margin-bottom: 1rem;
+}
+
+.field label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.field select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 0.65rem 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: #3b82f6;
+  color: #fff;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+/* Progress */
+.progress-bar {
+  height: 8px;
+  background: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: #3b82f6;
+  transition: width 0.4s;
+}
+
+.status-text {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.steps {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.step-pill {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  background: #eee;
+  color: #999;
+}
+
+.step-pill.active {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.step-pill.done {
+  background: #10b981;
+  color: #fff;
+}
+
+/* Metrics */
+.metrics {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.metric {
+  flex: 1;
+  text-align: center;
+  padding: 0.75rem;
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.metric strong {
+  display: block;
+  font-size: 1.4rem;
+  color: #3b82f6;
+}
+
+.metric span {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Table */
+.groups-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.groups-table th,
+.groups-table td {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.groups-table th {
+  font-weight: 600;
+  color: #666;
+}
+
+/* Actions row */
+.actions {
+  display: flex;
+  gap: 0.75rem;
+}
