@@ -1,0 +1,38 @@
+id,business_category,revenue
+1,Plumber,1200
+2,Plumbing Service,1450
+3,Emergency Plumber,1600
+4,Plumbing & Heating,2100
+5,Residential Plumber,1150
+6,Commercial Plumbing,3400
+7,Local Plumber,950
+8,HVAC Contractor,2200
+9,Heating & AC Repair,1800
+10,Air Conditioning Service,1950
+11,HVAC Maintenance,2100
+12,AC Installation,3200
+13,Heating Systems,2700
+14,Electrician,1300
+15,Electrical Services,1750
+16,Residential Electrician,1400
+17,Emergency Electrician,1900
+18,Licensed Electrician,1650
+19,Electrical Wiring,2100
+20,Roofing Contractor,4500
+21,Roof Repair Service,2300
+22,Commercial Roofing,5100
+23,Residential Roofers,3800
+24,Roof Replacement,6200
+25,Emergency Roof Repair,2900
+26,Auto Repair Shop,1700
+27,Car Mechanics,1550
+28,Automotive Maintenance,1850
+29,Auto Brake Repair,1400
+30,Engine Diagnostics,2200
+31,Transmission Repair,3100
+32,Dental Clinic,4100
+33,Dentist Office,3900
+34,Family Dentistry,4300
+35,Cosmetic Dentist,5200
+36,Teeth Cleaning Service,1200
+37,Emergency Dentist,2800
